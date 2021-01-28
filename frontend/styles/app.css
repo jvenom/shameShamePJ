@@ -1,0 +1,52 @@
+body {
+	background-image: url(/frontend/static/pj.jpg);
+
+	/*background-image: url(/backend/public/static/pj.jpg);*/
+
+	/*background:rgba(27, 27, 27, 0.993);center no-repeat*/
+	color: rgba(255, 255, 255, 0.678);
+}
+.btn btn-danger {
+	background: rgb(207, 248, 24);
+}
+
+.error {
+	background: orange;
+}
+.success,
+.error {
+	color: #eb6b6b;
+	padding: 10px;
+	margin: 5px 0 15px 0;
+}
+.no-gutters {
+	/*background-color: rgba(24, 25, 87, 0.443);*/
+	background-image: url(/frontend/static/they01.jpg);
+	transition: background-image 5s ease-in-out;
+
+	-webkit-transform: translate(-0.2%, 0);
+	-moz-transform: translate(-0.2%, 0);
+	-ms-transform: translate(-0.2%, 0);
+	-o-transform: translate(-0.2%, 0);
+	transform: translate(-0.2%, 0);
+	-webkit-transition: transform 0.3s ease-in;
+	-moz-transition: transform 0.3s ease-in;
+	-o-transition: transform 0.3s ease-in;
+	transition: transform 0.3s ease-in;
+}
+.no-gutters:hover {
+	background-image: url(/frontend/static/they.jpg);
+
+	-webkit-transform: translate(0, 0);
+	-moz-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	-o-transform: translate(0, 0);
+	transform: translate(0, 0);
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+div.card-footer {
+	background-color: rgba(20, 21, 36, 0.781);
+}
